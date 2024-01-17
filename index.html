@@ -481,14 +481,10 @@
             </li>
           </ul>
         </div>
-        <!-- Доданий div для форми -->
         <div class="form-container">
-          <!-- Параграф з вказаними стилями -->
           <p class="subscribe-text">Subscribe</p>
 
-          <!-- Форма з вказаними стилями -->
           <form class="subscribe-form">
-            <!-- Лейбл з інпутом для емейлу -->
             <label for="email-input" class="email-label">
               <input
                 type="email"
@@ -498,8 +494,6 @@
                 id="email-input"
               />
             </label>
-
-            <!-- Кнопка "Subscribe" з іконкою -->
             <button type="submit" class="subscribe-button">
               Subscribe
               <svg width="24" height="24" class="icon-svg">
@@ -573,9 +567,23 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <button type="submit" class="all-buttons">Send</button>
-        </form>
-      </div>
+          <div class="checkbox-container">
+            <input 
+            id="user-privacy" 
+            type="checkbox"
+            value="true"
+            name="user-privacy"
+            class="input-class visually-hidden"/>
+            <label for="user-privacy" class="label-class">I accept the terms and conditions of the<span class="icon-container-checkbox">
+              <svg width="10" height="8" class="your-svg-class"><use href="./images/icons.svg#your-icon-id"></use>
+              </svg>
+            </span>
+          </label>
+        </div>
+        <a href="#" class="link-class">Privacy Policy</a> <button type="submit" class="all-buttons">Send</button>
+      </form>
     </div>
-  </body>
+  </div>
+</div>
+</body>
 </html>
