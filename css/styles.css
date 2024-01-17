@@ -563,7 +563,7 @@ img {
 
 .modal-field {
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -648,11 +648,5 @@ img {
 .modal-close-btn:hover .icon-modal,
 .modal-close-btn:focus .icon-modal {
   fill: #ffffff;
-}
-
-.modal-text:focus {
   border-color: #4d5ae5;
-}
-.modal-label {
-  margin-bottom: 24px;
 }
