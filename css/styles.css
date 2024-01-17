@@ -503,8 +503,8 @@ img {
   top: 0;
   left: 0;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -552,9 +552,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-}
-
-.modal-title span {
+  margin-bottom: 16px;
 }
 
 .modal-field {
@@ -624,4 +622,13 @@ img {
   resize: none;
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
+}
+
+.icon-modal {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover .icon-modal,
+.modal-close-btn:focus .icon-modal {
+  fill: #ffffff;
 }
