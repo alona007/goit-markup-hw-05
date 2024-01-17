@@ -68,7 +68,7 @@
           <h1 class="title-first-section">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="first-button">Order Service</button>
+          <button type="button" class="all-buttons">Order Service</button>
         </div>
       </section>
       <!--second-section-->
@@ -485,7 +485,11 @@
     </footer>
     <div class="backdrop">
       <div class="modal">
-        <button type="button" class="modal-close-btn">X</button>
+        <button type="button" class="modal-close-btn">
+          <svg width="8" height="8" class="icon-svg">
+            <use href="./images/icons.svg#close-black"></use>
+          </svg>
+        </button>
         <p class="modal-title title-section-third">
           Leave your contacts and we will call you back
         </p>
@@ -493,6 +497,9 @@
           <div class="modal-field">
             <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-wrap">
+              <svg width="8" height="8" class="icon-svg">
+                <use href="./images/icons.svg#person-black"></use>
+              </svg>
               <input
                 type="text"
                 name="user-name"
@@ -503,8 +510,11 @@
             </div>
           </div>
           <div class="modal-field">
-            <label class="modal-label"
+            <label for="user-tel" class="modal-label"
               ><span>Phone</span>
+              <svg width="8" height="8" class="icon-svg">
+                <use href="./images/icons.svg#phone-black"></use>
+              </svg>
               <input
                 type="tel"
                 required
@@ -516,6 +526,9 @@
           </div>
           <div class="modal-field">
             <label for="user-email" class="modal-label">Email</label>
+            <svg width="8" height="8" class="icon-svg">
+              <use href="./images/icons.svg#email-black"></use>
+            </svg>
             <input
               type="email"
               name="user-email"
@@ -533,9 +546,11 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <button type="submit" class="submit-button">Send</button>
+          <button type="submit" class="all-buttons">Send</button>
         </form>
       </div>
     </div>
   </body>
 </html>
+
+id="email-black" id="person-black" id="phone-black"
