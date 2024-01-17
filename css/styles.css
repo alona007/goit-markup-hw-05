@@ -726,7 +726,7 @@ img {
   color: #8e8f99;
 }
 
-.icon-container-checkbox {
+.icon-container {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -743,6 +743,6 @@ img {
 .svg-class {
 }
 
-.link-class {
+.link-class-checkbox {
   color: #4d5ae5;
 }
