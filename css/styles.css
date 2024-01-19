@@ -734,7 +734,7 @@ img {
   text-decoration: underline;
 }
 
-.check-text span {
+.privacy-span {
   display: inline-flex;
   width: 16px;
   height: 16px;
@@ -755,5 +755,3 @@ img {
   border: none;
   fill: #f4f4fd;
 }
-
-/* _______________________________________*/
