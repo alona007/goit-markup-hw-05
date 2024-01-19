@@ -626,7 +626,8 @@ img {
 /* _______________________________________*/
 
 .modal-field {
-  margin-bottom: 18px;
+  width: 100%;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -635,14 +636,16 @@ img {
 
 .modal-input {
   width: 100%;
-  height: 68px;
-  border-radius: 13px;
-  border: 1.5px solid rgba(17, 17, 17, 0.25);
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1.5px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
   outline: transparent;
   color: #1e1823;
-  padding-left: 50px;
+  padding-left: 42px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input::placeholder {
@@ -650,44 +653,48 @@ img {
 }
 
 .modal-input:focus {
-  border-color: #fd9222;
+  outline: none;
+  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-input:focus::placeholder {
-  color: #fd9222;
+  color: #4d5ae5;
 }
 
 .modal-input:focus + .modal-icon {
-  stroke: #fd9222;
+  stroke: #4d5ae5;
 }
 
 .modal-label {
   display: block;
-  color: rgba(64, 64, 64, 0.3);
-  font-size: 14px;
-  line-height: normal;
-  letter-spacing: -0.02em;
-  margin-bottom: 8px;
+  color: #8e8f99;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  line-height: 1.17;
 }
 
 .modal-icon {
-  fill: transparent;
-  stroke: #404040;
   position: absolute;
-  left: 24px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .modal-text {
-  width: 100%;
-  height: 137px;
-  border-radius: 13px;
-  border: 1.5px solid rgba(17, 17, 17, 0.25);
-  background-color: transparent;
-  box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
-  outline: transparent;
   color: #1e1823;
-  padding: 24px 22px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  height: 120px;
   resize: none;
+  padding: 8px 16px;
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
