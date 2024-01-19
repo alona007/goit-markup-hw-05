@@ -701,20 +701,6 @@ img {
 }
 
 /* _______________________________________*/
-.icon-modal {
-  position: absolute;
-  fill: #2e2f42;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 16px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-close-btn:hover .icon-modal,
-.modal-close-btn:focus .icon-modal {
-  fill: #ffffff;
-  border-color: #4d5ae5;
-}
 
 .checkbox-container {
   margin-bottom: 24px;
@@ -731,6 +717,9 @@ img {
 }
 
 .icon-container {
+}
+
+.checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -750,3 +739,5 @@ img {
 .link-class-checkbox {
   color: #4d5ae5;
 }
+
+/* _______________________________________*/
