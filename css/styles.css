@@ -624,8 +624,6 @@ img {
   margin-bottom: 16px;
 }
 
-/* _______________________________________*/
-
 .modal-field {
   width: 100%;
   margin-bottom: 8px;
@@ -640,12 +638,12 @@ img {
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1.5px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
   outline: transparent;
   color: #1e1823;
-  padding-left: 42px;
+  padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
