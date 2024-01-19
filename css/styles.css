@@ -716,10 +716,10 @@ img {
 }
 
 .check-text {
-  color: rgba(64, 64, 64, 0.6);
-  font-size: 14px;
-  line-height: normal;
-  letter-spacing: -0.02em;
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
   position: relative;
